@@ -2,7 +2,9 @@ package git;
 import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in
+        GetFiles createFile = new GetFiles();
+
         System.out.println("""
                                 
                 +---------------------------------+
@@ -22,7 +24,8 @@ public class MainClass {
                         |   3.Exit Application
                         """);
                 System.out.println("Working Directory = " + System.getProperty("user.dir"));
-    
+                 switch (option) {
+                    case 1 -> createFile.gettingFiles();
 
                 }
             }
