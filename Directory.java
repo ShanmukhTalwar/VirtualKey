@@ -18,7 +18,7 @@ public class Directory {
         }
         return result;
     }
-
+/
     public boolean goParentDir(){
         boolean result =false;
         File file=new File(System.getProperty("user.dir").substring(0,System.getProperty("user.dir").lastIndexOf("/")));
